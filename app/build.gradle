@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\anish\\Desktop\\InstudyPrivateFile.jks')
+            storePassword 'Anish1000'
+            keyAlias = 'InstudyPrivateKey'
+            keyPassword 'Anish1000'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.instudy"
