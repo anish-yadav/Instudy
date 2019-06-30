@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <View
+               android:id="@+id/logo"
+               android:layout_width="53dp"
+               android:layout_height="49dp"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="33dp"
+               android:layout_marginTop="50dp"
+               android:layout_alignParentTop="true"
+               android:background="@drawable/main_logo"
+               />
+
+           <TextView
+               android:id="@+id/welcome_bac"
+               android:layout_width="165dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="33dp"
+               android:layout_marginTop="55dp"
+               android:fontFamily="@font/josefin_sans_bold"
+               android:gravity="top"
+               android:text="@string/welcome_bac"
+               android:textAppearance="@style/welcome_back" />
+
+           <TextView
+               android:id="@+id/lets_read_i"
+               android:layout_width="104dp"
+               android:layout_height="13dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="42dp"
+               android:fontFamily="@font/pt_serif_bold"
+               android:gravity="top"
+               android:text="@string/lets_read_i"
+               android:textAppearance="@style/lets_read_i" />
+
+           <EditText
+               android:id="@+id/registration_no"
+               android:layout_width="239dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="57dp"
+               android:autofillHints=""
+               android:ems="10"
+               android:textSize="12sp"
+               android:hint="@string/registration"
+               android:inputType="textPersonName"
+               android:paddingBottom="15dp"
+               android:textAppearance="@style/registration"
+               android:textColorHighlight="@color/colorMain"
+               android:textColorLink="@color/colorMain"
+               android:textCursorDrawable="@color/colorMain" />
+
+           <EditText
+               android:id="@+id/password"
+               android:layout_width="239dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="30dp"
+               android:layout_gravity="center_horizontal"
+               android:ems="10"
+               android:hint="@string/password"
+               android:inputType="textPassword"
+               android:paddingBottom="15dp"
+               android:textAppearance="@style/registration"
+               android:textColorHighlight="@color/colorMain"
+               android:textColorLink="@color/colorMain"
+               android:textCursorDrawable="@color/colorMain" />
+
+           <Button
+               android:id="@+id/login"
+               android:layout_width="176dp"
+               android:layout_height="57dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="105dp"
+               android:background="@drawable/rounded_corner"
+               android:elevation="30dp"
+               android:onClick="login"
+               android:text="Login"
+               android:textAllCaps="false"
+               android:textColor="#ffffff"
+               android:textSize="22sp" />
+
+           <TextView
+               android:id="@+id/skip"
+               android:layout_width="29dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_horizontal"
+               android:clickable="true"
+               android:gravity="top"
+               android:onClick="skip"
+               android:text="@string/skip"
+               android:textAppearance="@style/skip" />
+
+       </LinearLayout>
+
+
+
+
+
+
+
+   </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

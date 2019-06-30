@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/border_bottom">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/book_image"
+            android:layout_width="74dp"
+            android:layout_height="116dp"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/igt" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/book_name"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="52dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="23dp"
+                android:textColor="#000"
+                android:text="Calculus Early Transdential"
+                android:textSize="12sp"
+                android:gravity="top"
+                />
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="52dp"
+                android:layout_alignParentTop="true"
+                android:text="James Stewart"
+                android:textSize="10sp"
+                android:textColor="#3E3D3D"
+                android:gravity="top"
+                />
+            <TextView
+                android:id="@+id/subject_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="52dp"
+                android:layout_alignParentTop="true"
+                android:text="ICP"
+                android:textSize="10sp"
+                android:textColor="#3E3D3D"
+                android:gravity="top"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+        <Button
+            android:id="@+id/preview_book"
+            android:layout_width="87dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:text="Preview"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:onClick="Preview"
+            android:background="#4598E4"
+            />
+
+        <Button
+            android:id="@+id/download_book"
+            android:layout_width="87dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:text="Download"
+            android:textColor="#fff"
+            android:onClick="DownloadFile"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:textAllCaps="false"
+            android:background="#2ABD1D"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

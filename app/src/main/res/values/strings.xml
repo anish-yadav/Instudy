@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Blah Blah Blah</string>
+    <string name="welcome_bac">
+
+Welcome Back
+</string>
+    <string name="lets_read_i">
+
+Lets read it togehther
+</string>
+    <string name="registration">
+
+Registraion no.
+</string>
+    <string name="password">
+
+Password
+</string>
+    <string name="skip">
+
+Skip
+</string>
+    <string name="hello_again">
+
+Hello Again
+</string>
+    <string name="attendence">
+
+Attendence
+</string>
+    <string name="username">
+
+Anish Yadav
+</string>
+    <string name="standard">
+
+Ist year , CSE
+</string>
+    <string name="tab1">Books</string>
+    <string name="tab2">Notes</string>
+    <string name="tab3">Papers</string>
+    <string name="title_activity_resource">Resource</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
